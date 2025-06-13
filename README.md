@@ -1,12 +1,57 @@
-# React + Vite
+# 🗺️ Authenticated Map App – Plot Route from A to B
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application that allows users to **log in (via Google or email/password)** and **draw a route between two points (A to B)** on a map. The route is only accessible after successful authentication.
+# Deployment link:
+https://authenticated-map-app.vercel.app/
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## Expanding the ESLint configuration
+- 🔐 **Firebase Authentication** (Google & Email/Password)
+- 🗺️ **Map rendering** using **React Leaflet**
+- 📍 **Point A to B routing** using **Leaflet Routing Machine**
+- 📍  Use **current location as Point A**
+- 🕒 Displays **distance and duration**
+- 🌐 Fully responsive UI with clean design
+- 🔄 Graceful loading state handling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Map & Routing
+# How It Works
+- The map is displayed using React-Leaflet
+
+- Leaflet Routing Machine is used to draw the route between point A and point B
+
+- Users can input or click to select both points
+
+- API automatically calculates distance and estimated time
+
+# 🔐 Auth Flow
+- Unauthenticated users are redirected to the Login page
+
+- Authenticated users can access the Map screen
+
+- Auth state is managed using onAuthStateChanged from Firebase
+   # Features Implemented
+ - Use current location as starting point
+
+ - Display distance and duration
+
+ - Loading spinner during login/map load
+
+ - Responsive design (mobile-friendly)
+# Screenshot
+# Login page
+![image](https://github.com/user-attachments/assets/c86544f9-fe92-4082-a413-8394d612298e)
+
+# Registration page
+![image](https://github.com/user-attachments/assets/0716ff71-bfff-40c6-9695-6c07c52703df)
+
+# Dashboard
+![image](https://github.com/user-attachments/assets/3b782f8d-446b-42b0-9faa-143d49ab41e2)
+# use current location notification
+![image](https://github.com/user-attachments/assets/b6a82584-09a3-4d90-b699-8ea8426e0ded)
+
+
+
+
+   
