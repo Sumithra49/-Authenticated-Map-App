@@ -4,6 +4,37 @@ A React-based web application that allows users to **log in (via Google or email
 # Deployment link:
 https://authenticated-map-app-h73r.vercel.app/
 
+# Folder Structure
+![image](https://github.com/user-attachments/assets/348fcc6d-a708-4a0a-8f30-a873ee59b444)
+
+## 🔧 Tech Stack
+
+### ⚛️ Frontend
+- **React 19**
+- **Vite** (Build tool)
+- **React Router DOM** (Routing)
+- **React Leaflet** & **Leaflet Routing Machine** (Map & Route)
+- **@react-google-maps/api** (optional alternative for Google Maps)
+- **React Select** (Searchable dropdowns)
+- **Lucide React** (Icons)
+
+### 🔐 Authentication
+- **Firebase Auth**
+  - Google Login
+  - Email/Password
+
+### 🗺️ Maps & Routing
+- **Leaflet** for rendering the map
+- **Leaflet Routing Machine** for route plotting
+- **OpenRouteService API** for geocoding and directions
+
+- #  Set Environment Variables
+- VITE_FIREBASE_API_KEY=your_firebase_api_key
+- VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+- VITE_FIREBASE_PROJECT_ID=your_project_id
+- VITE_OPENROUTESERVICE_API_KEY=your_openrouteservice_api_key
+
+
 
 ## 📌 Features
 
@@ -46,6 +77,10 @@ https://authenticated-map-app-h73r.vercel.app/
 # Registration page
 ![image](https://github.com/user-attachments/assets/0716ff71-bfff-40c6-9695-6c07c52703df)
 
+# Pop for sign in with Google
+![image](https://github.com/user-attachments/assets/b1863a48-0014-4644-a0e4-763db9887c0c)
+
+
 # Dashboard
 ![image](https://github.com/user-attachments/assets/3b782f8d-446b-42b0-9faa-143d49ab41e2)
 # use current location notification
@@ -66,6 +101,12 @@ https://authenticated-map-app-h73r.vercel.app/
 
 # Signout button 
 ![image](https://github.com/user-attachments/assets/a2a04b06-3440-40e8-805b-c3d8cf09a630)
+
+# Responsiveness
+![image](https://github.com/user-attachments/assets/557dcedb-934b-4111-8f61-96eb0d6e2f5c)
+![image](https://github.com/user-attachments/assets/507b0038-e040-464d-b8d7-e7a6ecb51ef4)
+
+
 
 
 
