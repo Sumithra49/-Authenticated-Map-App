@@ -1,0 +1,11 @@
+/* index.css */
+@import 'leaflet/dist/leaflet.css';
+@import 'leaflet-routing-machine/dist/leaflet-routing-machine.css';
+
+
+/* index.css */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

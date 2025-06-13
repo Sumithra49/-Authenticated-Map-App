@@ -1,0 +1,127 @@
+/* Container */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+.header {
+  margin-bottom: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.header-title h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+/* Card */
+.login-card {
+  background: white;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.login-card h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Form Elements */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+label {
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+input {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.3s ease;
+}
+
+input:focus {
+  border-color: #667eea;
+  outline: none;
+}
+
+/* Buttons */
+.login-btn,
+.google-btn {
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-btn {
+  background-color: #667eea;
+  color: white;
+}
+
+.login-btn:hover {
+  background-color: #5a67d8;
+}
+
+.google-btn {
+  background-color: #db4437;
+  color: white;
+}
+
+.google-btn:hover {
+  background-color: #c1351d;
+}
+
+/* Separator */
+.separator {
+  margin: 1rem 0;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+/* Toggle Auth */
+.toggle-auth {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.toggle-auth span {
+  color: #667eea;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 0.25rem;
+}
+
+.toggle-auth span:hover {
+  text-decoration: underline;
+}
